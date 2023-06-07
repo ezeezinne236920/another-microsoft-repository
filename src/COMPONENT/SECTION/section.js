@@ -18,8 +18,22 @@ const section = () => {
               For up to 6 people
             </Buttonwithoutcolor>
           </div>
-
-          <div></div>
+        </div>
+      </div>
+      <div>
+        {" "}
+        <div className={`${styles.maindiv} ${styles.hidemaindiv}` }>
+          <h2>Microsoft 365</h2>
+          <p>
+            Turn your ideas into reality, stay safer online and off, and focus
+            on what matters most with Microsoft 365 apps
+          </p>
+          <div className={styles.sectionbtn}>
+            <Button>For 1 person</Button>{" "}
+            <Buttonwithoutcolor className={styles.sectionbtn}>
+              For up to 6 people
+            </Buttonwithoutcolor>
+          </div>
         </div>
       </div>
     </div>
